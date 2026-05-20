@@ -25,7 +25,7 @@ android.accept_sdk_license = True
 android.archs = arm64-v8a
 
 # Python for Android
-p4a.branch = master
+p4a.branch = stable
 
 # Permissions
 android.permissions = INTERNET
