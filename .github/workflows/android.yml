@@ -41,6 +41,8 @@ jobs:
 
       - name: Build APK
         run: |
+          export ANDROID_HOME=/usr/local/lib/android/sdk
+          export ANDROID_SDK_ROOT=/usr/local/lib/android/sdk
           buildozer android debug
 
       - name: Upload APK
