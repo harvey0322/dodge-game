@@ -1,0 +1,9 @@
+# Placeholder workflow file
+# You can delete this and add your own workflows
+name: Placeholder
+on: push
+jobs:
+  placeholder:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
