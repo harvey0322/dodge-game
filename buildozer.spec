@@ -9,7 +9,7 @@ source.include_exts = py,png,jpg,wav,mp3
 
 version = 1.0
 
-requirements = python3,kivy==2.3.0,pillow
+requirements = python3,kivy==2.3.0,pillow,pygame
 
 orientation = portrait
 fullscreen = 1
